@@ -13,12 +13,13 @@ function clearAll() {
     setTimeout(function () {
         for(let i = 0; i < items.length; i++){
             items[i].innerHTML = ``;
+            items[i].style.backgroundColor = "skyblue";
             count = 0;
             checks = ['A','B','C','D','E','F','G','H','I'];
             player = 'X';
             heading.textContent = "";
         }
-    }, 5000);    
+    }, 2000);    
 }
 
 function checksConfirm() {
@@ -55,13 +56,16 @@ function checksConfirm() {
 
 for(let i = 0; i < items.length; i++){
     items[i].addEventListener("click", function(e) {
-        e.target.innerHTML = `<h1>${player}</h1>`; 
-        checks[i] = player;
-        checksConfirm();
-        if(player=='X') {
-            player = 'O';
-        } else {
-            player = 'X';
+        if(e.target.innerHTML == ''){
+            items[i].style.backgroundColor = "black";
+            e.target.innerHTML = `<h1>${player}</h1>`; 
+            checks[i] = player;
+            checksConfirm();
+            if(player=='X') {
+                player = 'O';
+            } else {
+                player = 'X';
+            }
         }
     })
 }
