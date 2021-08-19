@@ -1,0 +1,102 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightgray;
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: magenta;
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: purple;
+}
+
+span {
+    font-weight: 100;
+    color: red;
+}
+
+.boxes {
+    margin: 5px;
+    padding: 5px;
+    border: 5px solid black;
+    border-radius: 5px;
+    width: 30em;
+    display: block;
+}
+
+#box1 {
+    background-color: yellow;
+}
+
+#box2 {
+    background-color: green;
+}
+
+#box3 {
+    background-color: orange;
+}
+
+#box4 {
+    background-color: gold;
+}
+
+.imaging {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: darkgray;
+    position: absolute;
+    left: 125px;
+} 
+
+h1 {
+    color: #102;
+}
+
+.original {
+    color: #F6B;
+}
+
+.additional {
+    color: #6FB;
+}
+
+#s1 {
+    color: #000;
+}
+#s2 {
+    color: #F00;
+}
+#s3 {
+    color: #EF0;
+}
+#s4 {
+    color: #F0F;
+}
+#s5 {
+    color: #A5E;
+}
+
+ul {
+    color: darkviolet;
+}
+
+.star {
+    color: lightcoral;
+}
+
+#wars {
+    color: tan;
+}
+
+.wrapper {
+    border: 2px solid black;
+}
