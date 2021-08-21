@@ -1,0 +1,12 @@
+.black {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: inline-flex;
+    justify-content: center;
+}
+
+
+.black:hover {
+    color: white;
+}
