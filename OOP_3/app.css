@@ -1,0 +1,23 @@
+.input {
+    margin: 15px;
+}
+
+#area {
+    display: inline-block;
+    height: 600px;
+    width: 600px;
+    background-color: rgb(219, 196, 200);
+    position: relative;
+}
+
+input {
+    width: 87px;
+}
+
+.display {
+    display: inline-block;
+    margin-left: 20px;
+    background-color: lightblue;
+    width: 200px;
+    height: 600px;
+}
